@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val roll_button: Button = findViewById(R.id.roll_button)
-        roll_button.text = "Let's roll"
+        roll_button.text = "tente ta chance !"
         roll_button.setOnClickListener{
             rollDice()
         }
